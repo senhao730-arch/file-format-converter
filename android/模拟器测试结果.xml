@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.senhao.converter.ConversionDeviceTest" tests="8" failures="0" errors="0" skipped="0" time="5.444" timestamp="2026-10-10T07:49:59" hostname="localhost">
+  <properties>
+    <property name="device" value="ConverterTest(AVD) - 15" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="imagesToPdfAndPagesZip" classname="com.senhao.converter.ConversionDeviceTest" time="0.031" />
+  <testcase name="videoResizeExportsMp4" classname="com.senhao.converter.ConversionDeviceTest" time="1.022" />
+  <testcase name="candidatesRequireSelectionAndHomeRenders" classname="com.senhao.converter.ConversionDeviceTest" time="1.437" />
+  <testcase name="gifProducesActualAnimatedMp4" classname="com.senhao.converter.ConversionDeviceTest" time="0.156" />
+  <testcase name="imageFormatsAndResizePreserveSource" classname="com.senhao.converter.ConversionDeviceTest" time="0.002" />
+  <testcase name="cancellationDoesNotReturnResult" classname="com.senhao.converter.ConversionDeviceTest" time="0.002" />
+  <testcase name="pdfRepairOnlySelectedPageAndOriginalUnchanged" classname="com.senhao.converter.ConversionDeviceTest" time="0.003" />
+  <testcase name="uiConversionAndSaveShareIntents" classname="com.senhao.converter.ConversionDeviceTest" time="1.464" />
+</testsuite>
