@@ -1,10 +1,18 @@
 # 格式转换工具
 
-Windows 本地桌面工具：文档、图片、GIF 和视频格式转换，画质与分辨率调整，以及水印候选检测和处理。
+提供 Windows 桌面版与 Android 手机离线版。手机端支持图片、视频/GIF、PDF 处理；电脑版继续提供 Word/PPT 等完整功能。
 
-**[下载 Windows 便携版](https://github.com/senhao730-arch/file-format-converter/releases/latest)** · [详细使用说明](使用说明.md) · [源码](https://github.com/senhao730-arch/file-format-converter/archive/refs/heads/main.zip)
+**[下载 Windows 便携版](https://github.com/senhao730-arch/file-format-converter/releases/tag/v1.0.0)** · **[下载 Android APK](https://github.com/senhao730-arch/file-format-converter/releases/tag/android-v1.0.0)** · [详细使用说明](使用说明.md) · [源码](https://github.com/senhao730-arch/file-format-converter/archive/refs/heads/main.zip)
 
-## 给使用者
+## Android 手机
+
+Android 8.0+：在手机上打开 [Android 下载页](https://github.com/senhao730-arch/file-format-converter/releases/tag/android-v1.0.0)，下载并安装 `FormatConverter-Android.apk`。独立离线运行，不需要电脑或服务器。
+
+手机首版支持 JPG/PNG/WebP/BMP 输出、图片尺寸与清晰度调整、多图 PDF、视频转 MP4 和裁剪、GIF 转 MP4、PDF 页面导出与压缩、图片/指定 PDF 页的水印候选及框选修补。处理后使用「保存到手机文件夹」或「分享结果」。完整说明与 Android 源码包见 [android/](android/)。
+
+手机首版暂不含 Word/PPT 互转、OCR 和视频水印修补。视频输入依赖手机解码器；PDF 压缩/修补的所有页面会变为图片，文字不可搜索或选择。复杂背景的水印修补可能留痕。原文件保留。
+
+## Windows 使用者
 
 1. 打开上面的下载页，下载 `FormatConverter-Windows-x64.zip`。
 2. **完整解压**，双击 `启动程序.bat`。也可以打开 `FormatConverter/FormatConverter.exe`。
@@ -12,7 +20,7 @@ Windows 本地桌面工具：文档、图片、GIF 和视频格式转换，画�
 
 适用 Windows 10/11 64 位。Word、PPT 导出 PDF 需要本机 Microsoft Office 或 LibreOffice；DOC 水印检测需要 Microsoft Word。
 
-## 功能
+## Windows 功能
 
 - Word ⇄ PDF、PPT ⇄ PDF。
 - PNG、JPG、WebP、BMP、TIFF、GIF、ICO、AVIF 等图片格式互转，读取 HEIC/HEIF。
@@ -45,6 +53,8 @@ python -m venv .venv
 开发测试：`python -m pytest tests -q`。已通过 49 项常规测试，另有 1 项真实 Office 集成测试；验证说明见[验证结果](验证结果.txt)。
 
 ## 分享给别人
+
+手机用户可分享 [Android 下载页](https://github.com/senhao730-arch/file-format-converter/releases/tag/android-v1.0.0)，下载 APK 安装。电脑用户可分享 [Windows 下载页](https://github.com/senhao730-arch/file-format-converter/releases/tag/v1.0.0)。
 
 直接分享本仓库首页：https://github.com/senhao730-arch/file-format-converter 。需要让别人直接下载时，分享[最新发布页](https://github.com/senhao730-arch/file-format-converter/releases/latest)。使用者应下载发布页的便携版 ZIP，而不是 GitHub 自动生成的 Source code 包。
 
