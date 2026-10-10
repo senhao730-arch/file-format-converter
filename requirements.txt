@@ -1,0 +1,9 @@
+Pillow>=12.0,<13
+PyMuPDF>=1.26,<2
+pdf2docx>=0.5.8,<0.6
+python-pptx>=1.0,<2
+imageio-ffmpeg>=0.6,<0.7
+pywin32>=311; sys_platform == 'win32'
+pillow-heif>=1.1,<2
+pikepdf>=10,<11
+opencv-python-headless>=4.5,<6

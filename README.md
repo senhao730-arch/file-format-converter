@@ -2,12 +2,12 @@
 
 Windows 本地桌面工具：文档、图片、GIF 和视频格式转换，画质与分辨率调整，以及水印候选检测和处理。
 
-**[下载 Windows 便携版](https://github.com/senhao730-arch/file-format-converter/releases/latest)** · [详细使用说明](使用说明.md)
+**[下载 Windows 便携版](https://github.com/senhao730-arch/file-format-converter/releases/latest)** · [详细使用说明](使用说明.md) · [源码](https://github.com/senhao730-arch/file-format-converter/archive/refs/heads/main.zip)
 
-## 下载和运行
+## 给使用者
 
 1. 打开上面的下载页，下载 `FormatConverter-Windows-x64.zip`。
-2. **完整解压**，双击 `启动程序.bat`，或打开 `FormatConverter/FormatConverter.exe`。
+2. **完整解压**，双击 `启动程序.bat`。也可以打开 `FormatConverter/FormatConverter.exe`。
 3. 不用安装 Python。保留 EXE 旁的 `_internal` 文件夹。
 
 适用 Windows 10/11 64 位。Word、PPT 导出 PDF 需要本机 Microsoft Office 或 LibreOffice；DOC 水印检测需要 Microsoft Word。
@@ -46,7 +46,7 @@ python -m venv .venv
 
 ## 分享给别人
 
-分享仓库首页：https://github.com/senhao730-arch/file-format-converter 。需要让别人直接下载时，分享[最新发布页](https://github.com/senhao730-arch/file-format-converter/releases/latest)。使用者应下载发布页的便携版 ZIP，而不是 GitHub 自动生成的 Source code 包。
+直接分享本仓库首页：https://github.com/senhao730-arch/file-format-converter 。需要让别人直接下载时，分享[最新发布页](https://github.com/senhao730-arch/file-format-converter/releases/latest)。使用者应下载发布页的便携版 ZIP，而不是 GitHub 自动生成的 Source code 包。
 
 ## 许可证
 

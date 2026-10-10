@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+dist/
+FormatConverter/
+FormatConverter-build/
+*.spec
+*.zip
+转换结果/
